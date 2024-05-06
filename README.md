@@ -12,13 +12,21 @@ Database Interaction: Spring Data JPA simplifies the interaction with the databa
 Service Layer: The service layer contains the business logic for managing employees. It encapsulates operations such as adding new employees, updating existing records, retrieving employee details, and deleting employee records. This layer ensures separation of concerns and promotes code reusability.
 
 RESTful API: The system exposes RESTful endpoints to perform CRUD operations on employee data. These endpoints enable external clients (e.g., web applications, mobile apps) to interact with the system. Typical endpoints include:
+
 GET /api/employee: Retrieve a list of all employees.
+
 GET /api/employee/{id}: Retrieve details of a specific employee.
+
 GET /api/employee/salary/{salary}: Retrieve a list of  employees with a spacified salary.
+
 GET /api/employee/hiredate: Retrieve a list of  employees with a spacified hiredate.
+
 POST/api/employee: Add a new employee.
+
 PUT /api/employee/{id}: Update details of an existing employee.
+
 DELETE /api/employee/{id}: Delete an employee record.
+
 DELETE /api/employee: Delete all employees
 
 Database Configuration: Spring Boot simplifies database configuration through properties files ( application.properties). Configuration parameters such as database URL, username, password, and driver class can be specified here.
