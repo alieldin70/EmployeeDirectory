@@ -1,5 +1,6 @@
 # EmployeeDirectory
 A simple employee management system using Spring Boot allows businesses to efficiently organize and oversee their workforce.
+
 Employee Entity: The core of the system revolves around the Employee entity, which typically includes attributes such as:
 ID: A unique identifier for each employee.
 Name: The employee's full name.
